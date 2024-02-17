@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#9966CC;
+    padding: 50px;
+ 
+}
+h1{
+    /* text-align: center; */
+    margin: 30px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.question{
+    overflow: hidden;
+    
+    background-color: white;
+   padding: 10px;
+    /* text-align: center; */
+    font-size: 1.5rem;
+     height:70px; 
+    margin:30px; 
+    cursor: pointer;
+    
+
+}
+.answer{
+    background-color: white;
+    overflow: auto;
+  padding: 10px;
+    /* text-align: center; */
+    font-size: 1.3rem;
+     height:210px; 
+    margin:30px; 
+    cursor: pointer;
+   
+    
+}
+/* use od pseudo selector */
+.answer::after{
+    content: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad optio hic saepe, aliquam quis excepturi perspiciatis laboriosam officiis nemo omnis consequuntur alias? Eius beatae quas in odio sequi voluptatem dicta culpa fugiat, nobis suscipit minus odit fuga rerum aperiam? Earum vel molestiae corporis voluptate odit at totam nesciunt fugit minima.";
+}
